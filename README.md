@@ -4,8 +4,9 @@ The core monorepo that houses element supporting logic. 🖼👓
 
 ## Table of Contents
 
-- [element-loader](./element-loader)
-- [loadable-element](./loadable-element)
+- [element-loader](./packages/element-loader)
+- [loadable-element](./packages/loadable-element)
+- [loadable-element-tests](./packages/loadable-element-tests)
 
 ## Contributing
 
