@@ -46,5 +46,6 @@
   },
   "dependencies": {
     "ky": "^0.16.1"
-  }
+  },
+  "gitHead": "1f00fccd5a823b84564fe6afbe102be284213746"
 }

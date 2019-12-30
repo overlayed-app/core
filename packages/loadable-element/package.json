@@ -48,5 +48,6 @@
   },
   "dependencies": {
     "semver": "^7.1.1"
-  }
+  },
+  "gitHead": "1f00fccd5a823b84564fe6afbe102be284213746"
 }
