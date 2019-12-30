@@ -1,0 +1,53 @@
+{
+  "name": "@overlayed-app/loadable-element-tests",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "A common set of tests that all loadable elements should satisfy",
+  "keywords": [
+    "overlayed",
+    "element"
+  ],
+  "author": "bengreenier <ben@bengreenier.com>",
+  "homepage": "https://github.com/overlayed-app/core/tree/master/packages/loadable-element#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overlayed-app/core.git"
+  },
+  "scripts": {
+    "lint": "echo \"Error: run lint from root\" && exit 1",
+    "build": "echo \"Error: run build from root\" && exit 1",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/overlayed-app/core/issues"
+  },
+  "devDependencies": {
+    "@overlayed-app/loadable-element": "^1.0.1",
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@types/semver": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "react": "^16.12.0",
+    "standard-version": "^7.0.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "react": "^16.12.0"
+  }
+}
