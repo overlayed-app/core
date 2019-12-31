@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`game-quotes should match snapshot: quotes-snapshot 1`] = `
+Array [
+  Object {
+    "game": "The Legend of Zelda",
+    "speaker": "Link",
+    "text": "...",
+  },
+  Object {
+    "game": "Duke Nukem 3D",
+    "speaker": "Duke Nukem",
+    "text": "It's time to kick ass and chew bubblegum... and I'm all outta gum.",
+  },
+  Object {
+    "game": "Bioshock",
+    "speaker": "Andrew Ryan",
+    "text": "We all make choices in life, but in the end our choices make us.",
+  },
+  Object {
+    "game": "Borderlands 2",
+    "speaker": "Psycho",
+    "text": "Bring me a bucket, and I'll show you a bucket!",
+  },
+  Object {
+    "game": "Destiny",
+    "speaker": "Parables of the Allspring",
+    "text": "The courage to walk into the Darkness, but strength to return to the Light.",
+  },
+  Object {
+    "game": "Animal Crossing",
+    "speaker": "Chief",
+    "text": "Don't wish it were easier, wish you were better.",
+  },
+  Object {
+    "game": "Titanfall 2",
+    "speaker": "BT-7274",
+    "text": "Trust me.",
+  },
+  Object {
+    "game": "Borderlands 2",
+    "speaker": "Mr. Torgue",
+    "text": "NOTHING IS MORE BADASS THAN TREATING A WOMAN WITH RESPECT!",
+  },
+  Object {
+    "game": "Firewatch",
+    "speaker": "Delilah",
+    "text": "You are here, and it’s beautiful, and escaping isn’t always something bad.",
+  },
+  Object {
+    "game": "Portal 2",
+    "speaker": "GLaDOS",
+    "text": "We both said a lot of things that you're going to regret. But I think we can put our differences behind us. For science. You monster.",
+  },
+  Object {
+    "game": "Professor Layton and the Curious Village",
+    "speaker": "Professor Layton",
+    "text": "Every puzzle has an answer.",
+  },
+  Object {
+    "game": "Final Fantasy X",
+    "speaker": "Lulu",
+    "text": "No matter how dark the night, morning always comes, and our journey begins anew.",
+  },
+  Object {
+    "game": "Portal 2",
+    "speaker": "Cave Johnson",
+    "text": "Science isn’t about why! It’s about why not!",
+  },
+  Object {
+    "game": "Resident Evil 6",
+    "speaker": "Ada Wong",
+    "text": "The more things change, the more they stay the same.",
+  },
+  Object {
+    "game": "Half-Life 2",
+    "speaker": "Dr Wallace Breen",
+    "text": "Be wise. Be safe. Be aware.",
+  },
+  Object {
+    "game": "Assassin's Creed",
+    "speaker": "Altair",
+    "text": "Only a mind free of impediments is capable of grasping the chaotic beauty of the world.",
+  },
+  Object {
+    "game": "Tomb Raider",
+    "speaker": "Lara Croft",
+    "text": "A famous explorer once said that the extraordinary is in what we do, not who we are.",
+  },
+  Object {
+    "game": "Duke Nukem 3D",
+    "speaker": "Duke Nukem",
+    "text": "Mess with the best, you will die like the rest.",
+  },
+  Object {
+    "game": "Fallout: New Vegas",
+    "speaker": "Thomas Hildern",
+    "text": "Too many people have opinions on things they know nothing about. And the more ignorant they are, the more opinions they have.",
+  },
+  Object {
+    "game": "Warframe",
+    "speaker": "Margulis",
+    "text": "Dream, not of what you are, but of what you want to be.",
+  },
+]
+`;
