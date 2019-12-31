@@ -1,0 +1,51 @@
+{
+  "name": "@overlayed-app/grommet-theme",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "The overlayed grommet-theme",
+  "keywords": [
+    "overlayed",
+    "theme"
+  ],
+  "author": "bengreenier <ben@bengreenier.com>",
+  "homepage": "https://github.com/overlayed-app/core/tree/master/packages/grommet-theme#readme",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overlayed-app/core.git"
+  },
+  "scripts": {
+    "prebuild": "node scripts/prebuild.js",
+    "lint": "echo \"Error: run lint from root\" && exit 1",
+    "build": "echo \"Error: run build from root\" && exit 1",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/overlayed-app/core/issues"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "standard-version": "^7.0.1",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4",
+    "grommet": "^2.9.0",
+    "react": "^16.12.0",
+    "styled-components": "^4.4.1"
+  }
+}

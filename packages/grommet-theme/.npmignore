@@ -1,0 +1,5 @@
+scripts/
+src/
+coverage/
+tsconfig.json
+.eslintrc.json

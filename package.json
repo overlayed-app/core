@@ -10,7 +10,8 @@
   "scripts": {
     "commit": "git-cz",
     "lint": "lerna exec -- eslint **/*.ts",
-    "build": "lerna exec -- tsc -p .",
+    "prebuild": "lerna run prebuild",
+    "build": "npm run prebuild && lerna exec -- tsc -p .",
     "test": "lerna exec -- jest --coverage",
     "release": "npm run lint && npm run build && npm run test && lerna publish --conventional-commits from-package"
   },
