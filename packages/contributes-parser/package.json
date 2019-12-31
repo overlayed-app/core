@@ -1,5 +1,9 @@
 {
   "name": "@overlayed-app/contributes-parser",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "A parser for package.json#contributes",
   "author": "bengreenier <ben@bengreenier.com>",
@@ -38,5 +42,6 @@
   },
   "dependencies": {
     "ajv": "^6.10.2"
-  }
+  },
+  "gitHead": "0cb5c004bceeac6f1dc005edc1a4386ff833a2b6"
 }
