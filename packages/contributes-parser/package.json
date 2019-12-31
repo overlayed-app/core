@@ -1,0 +1,42 @@
+{
+  "name": "@overlayed-app/contributes-parser",
+  "version": "1.0.0",
+  "description": "A parser for package.json#contributes",
+  "author": "bengreenier <ben@bengreenier.com>",
+  "homepage": "https://github.com/overlayed-app/core/tree/master/packages/contributes-parser#readme",
+  "license": "MIT",
+  "main": "dist/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overlayed-app/core.git"
+  },
+  "scripts": {
+    "lint": "echo \"Error: run lint from root\" && exit 1",
+    "build": "echo \"Error: run build from root\" && exit 1",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/overlayed-app/core/issues"
+  },
+  "devDependencies": {
+    "@types/ajv": "^1.0.0",
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "ajv": "^6.10.2"
+  }
+}
