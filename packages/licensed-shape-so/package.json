@@ -1,0 +1,61 @@
+{
+  "name": "@overlayed-app/licensed-shape-so",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "1.0.0",
+  "description": "Overlayed app shapes, licensed for single-use, not reusable",
+  "keywords": [
+    "not-reusable"
+  ],
+  "author": "bengreenier <ben@bengreenier.com>",
+  "homepage": "https://github.com/overlayed-app/core/tree/master/packages/licensed-shape-so#readme",
+  "license": "UNLICENSED",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/overlayed-app/core.git"
+  },
+  "scripts": {
+    "lint": "echo \"Error: run lint from root\" && exit 1",
+    "build": "echo \"Error: run build from root\" && exit 1",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-jsdom-fourteen",
+    "preset": "ts-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/dist/"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/overlayed-app/core/issues"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.4.0",
+    "@types/jest": "^24.0.25",
+    "@types/react": "^16.9.17",
+    "@types/react-lottie": "^1.2.3",
+    "@types/react-test-renderer": "^16.9.1",
+    "@types/semver": "^6.2.0",
+    "@typescript-eslint/eslint-plugin": "^2.13.0",
+    "@typescript-eslint/parser": "^2.13.0",
+    "canvas": "^2.6.1",
+    "eslint": "^6.8.0",
+    "jest": "^24.9.0",
+    "jest-environment-jsdom-fourteen": "^1.0.1",
+    "react-dom": "^16.12.0",
+    "react-test-renderer": "^16.12.0",
+    "ts-jest": "^24.2.0",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "grommet": "^2.9.0",
+    "react": "^16.12.0",
+    "react-lottie": "^1.2.3",
+    "styled-components": "^4.4.1"
+  }
+}

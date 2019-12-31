@@ -9,6 +9,7 @@ The core monorepo that houses element supporting logic. 🖼👓
 - [loadable-element-tests](./packages/loadable-element-tests)
 - [grommet-theme](./packages/grommet-theme)
 - [game-quotes](./packages/game-quotes)
+- [licensed-shape-so](./packages/licensed-shape-so)
 
 ## Contributing
 
